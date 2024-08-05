@@ -1,0 +1,22 @@
+ECMAScript is a scripting language specification on which javascript is based .
+it serves as the guideline or the 'rules' for scripting language design .
+ECMAScript versions are essentially updates to the specification, introducing new features and syntaxes .
+
+Javascript : the implementation 
+1. it is a scripting language that conforms to the ECMAScript specification.
+it is the most widely known and used implementation of ECMAScript.
+2. Beyond ECMAScript: javascript includes additional features that are not part of the ECMAScript specification , like the 
+DOCUMENT OBJECT MODEL (DOM) manipulation , which is crucial for web development but is not defined by ECMAScript
+
+v8 engine - it is an open source javascript engine developed by the chromium project for google chrome and chromium 
+web browser. its written in c++ and is responsible for compilimg js code before executing it , which greatly improves 
+performance . 
+
+What is node.js ?
+js primary goal was to execute when the browser would be open then only the js ran . soem people thought that we
+can convert the js language to 0's and 1's and make it a backend language. the people therefore took it out the 
+v8 engine added some functionalities like raed files , creating http servers etc and made the js a backend language.
+this is when node.js came into picture . node.js is a runtime ---> a runtime means which can run javascript.
+
+What is Bun ?
+It is a competitor to the node.js and its written in Zig known to be more faster than c++.

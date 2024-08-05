@@ -1,0 +1,35 @@
+what can you do with Node.js
+1. create Clis--> command line inteerfaces
+2. create games 
+3. create video payer 
+4. create HTTP server 
+
+what is http server ?
+Hyper Text Transfer Protocol 
+a protocol that is defined for machines to communicate .
+specifically for websites, it is the most common way for the websites frontend to tak to its backend 
+connection between frontend and backend 
+in the end its a client throwing some info at the server . server does something with that info and it respondes
+back with the final result . 
+
+HTTP (CLIENT SIDE ):
+1. Protocol(http;https): sending a request
+2. Address(URL/IP/Port) : we need to know the backend or the url server ---> url eg :google.com
+3. Route: we need to know the route 
+4. Headers, Body and Query parameters : send these also 
+5. Method: we need to send a method
+
+HTTP(SERVER SIDE) :
+1. Response headers:
+2. Response body :
+3. Status code :  404 - page not found , 200 - everything ok ,500- internal server error , 403 -authentication issues
+
+example : https://chat.openai.com/backend-api/conversation 
+1. https://---> protocol
+2. chat.openai.com----> URL
+3. backend-api/conversation---> Route
+
+header - cookie - 123as@3325D3@!e223
+body - what is 2+2 (usually in json )*arguments that i am sending 
+Method : POST * specifies what kind of request u r sending like do you want to put some data on the server (POST)or 
+get some data  (GET)

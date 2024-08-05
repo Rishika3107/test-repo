@@ -1,0 +1,20 @@
+AFter we request something in the browser
+the following happens in your browser : 
+1. Browser parses the URL
+2. Does a DNS lookup (converts google.com to IP)
+3. Establishes the connection to the IP 
+
+IP eg. --> 233.72.3.4 
+
+What is Dns ?(Domain Name Server resolution )
+URL's are just like contacts in your phone . in the end , they map to an IP . if you ever 
+want to buy an URL of your own , you will need to point it to the IP address of your server 
+
+AFter we request something in the browser
+the following happens in your server :
+1. server get the inputs (route , body , headers )
+2. server do some logic on the input , calculate the output 
+3. server return the Output body , headers ans status code 
+
+so overall browser backend ke pas jata hai the backend then process something gets the server and then server does
+some input and gives the output . 
